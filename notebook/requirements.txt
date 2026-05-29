@@ -1,0 +1,60 @@
+# AI Change Impact Analyzer — Phase 1 Notebook Dependencies
+# Exact versions from problem_first_ai/.venv
+#
+# Setup (run from repo root or notebook/):
+#   python3.11 -m venv .venv
+#   source .venv/bin/activate
+#   pip install -r notebook/requirements.txt
+
+# Core LangChain + LangGraph
+langchain==1.2.3
+langchain-core==1.4.0
+langchain-openai==1.1.7
+langchain-community==0.4.1
+langchain-classic==1.0.5
+langchain-text-splitters==0.3.8
+langgraph==1.2.0
+langgraph-prebuilt==1.0.8
+langgraph-checkpoint==4.1.0
+langgraph-sdk==0.3.14
+langsmith==0.4.1
+langchain-tavily==0.2.6
+
+# OpenAI
+openai==2.33.0
+
+# Arize tracing (same as Week3)
+arize==8.2.0
+arize-otel==0.11.0
+openinference-instrumentation==0.1.48
+openinference-instrumentation-langchain==0.1.58
+openinference-semantic-conventions==0.1.29
+
+# OpenTelemetry (required by Arize)
+opentelemetry-api==1.39.1
+opentelemetry-sdk==1.39.1
+opentelemetry-exporter-otlp==1.39.1
+opentelemetry-exporter-otlp-proto-grpc==1.39.1
+opentelemetry-exporter-otlp-proto-common==1.39.1
+opentelemetry-exporter-otlp-proto-http==1.39.1
+opentelemetry-instrumentation==0.60b0
+
+# PDF reading
+pypdf==6.7.0
+
+# Utilities
+python-dotenv==1.2.1
+pydantic==2.13.4
+pydantic-settings==2.14.1
+requests==2.32.3
+tenacity==9.1.2
+tiktoken==0.12.0
+grpcio==1.80.0
+protobuf==6.33.6
+
+# Jupyter
+jupyter==1.1.1
+jupyterlab==4.5.7
+ipykernel==7.1.0
+ipython==8.37.0
+notebook==7.4.2
